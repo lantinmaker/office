@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 
 class IndexController extends Controller
 {
+    const TOKEN = "LantinMaker";
+
     public function __construct()
     {
 
@@ -18,7 +20,7 @@ class IndexController extends Controller
         $timestamp = $request->get('timestamp');
         $nonce = $request->get('nonce');
 
-        $tmpArr = array($timestamp, $nonce);
+        $tmpArr = array(self::TOKEN , $timestamp, $nonce);
         sort($tmpArr, SORT_STRING);
         $tmpStr = implode( $tmpArr );
         $tmpStr = sha1( $tmpStr );
