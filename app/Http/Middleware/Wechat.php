@@ -15,9 +15,9 @@ class Wechat
      */
     public function handle($request, Closure $next)
     {
-//        if (! strpos($_SERVER['HTTP_USER_AGENT'],'MicroMessenger') !== false ) {
-//            abort('401' , '请使用微信访问');
-//        }
+        if (! strpos($_SERVER['HTTP_USER_AGENT'],'MicroMessenger') !== false ) {
+            abort('401' , '请使用微信访问');
+        }
 
         return $next($request);
     }
