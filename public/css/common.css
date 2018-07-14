@@ -1,0 +1,263 @@
+html, body {
+    background-color: #fff;
+    color: #000000;
+    font-family: 'microsoft Yahei','Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body{
+    padding-top:80px;
+}
+
+body.home-page{
+    background-image: url('../images/bg_0.jpg');
+}
+
+body.services-page{
+    background: #ffffff;
+}
+img{
+    width: 100%;
+}
+
+h1{
+    font-size: 32px;
+    margin-top:0px;
+    font-family: 'Microsoft Yahei';
+}
+
+.box-mark{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    background-color: rgba(255 , 255 , 255 , 0.5);
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a , .links p {
+    color: #000000;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.loader [data-loader=satellite]{
+    display: inline-block;
+    border: 1px solid #000000;
+    margin-top: 50px;
+}
+[data-loader=satellite]:after, [data-loader=satellite]:before{
+    background-color:#000000;
+}
+
+.navbar-default{
+    background-color: rgba(255 , 255 , 255 , 0.4);
+    border: 0px;
+    transform: background-color .5s;
+    z-index: 9999;
+}
+
+.navbar-bg-in{
+    animation: navbar-bg-in .5s;
+    -moz-animation: navbar-bg-in .5s; /* Firefox */
+    -webkit-animation: navbar-bg-in .5s;  /* Safari 和 Chrome */
+    -o-animation: navbar-bg-in .5s;   /* Opera */
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.navbar-bg-out{
+    animation: navbar-bg-out .5s;
+    -moz-animation: navbar-bg-out .5s; /* Firefox */
+    -webkit-animation: navbar-bg-out .5s;  /* Safari 和 Chrome */
+    -o-animation: navbar-bg-out .5s;   /* Opera */
+    background-color: rgba(255 , 255 , 255 , 0.4);
+}
+
+.navbar-default .navbar-nav>li>a , .navbar-default .navbar-nav>li>span{
+    display: inline-block;
+    color:#000000;
+    border-bottom: 2px solid transparent;
+    padding:18px 16px ;
+}
+.navbar-default .navbar-nav>li>span{
+    padding: 16px 30px;
+}
+
+.navbar-default .navbar-nav>li>span >a{
+    display: inline-block;
+    padding:0px 8px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>span >a.active{
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand{
+    color:#000000;
+    padding:12px 30px ;
+    height: auto;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color:#000000;
+    background-color: transparent;
+    border-color:#000000;
+}
+.navbar-default .navbar-nav>li>a.phone-link{
+    padding:10px;
+}
+.phone-link span{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #000000;
+    color:#ffffff;
+    border-radius: 20px;
+    font-family: 'microsoft Yahei'
+}
+section{
+    padding: 80px 20px;
+}
+section.panel{
+    border-radius: 0px;
+    margin:0px;
+}
+
+section#section_1{
+    width:100%;
+    background-image: url('../images/bg_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.footer{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer a{
+    color:#999;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.footer .fa-inverse{
+    color:#000000;
+}
+
+.services-page .navbar-default{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-top: 2px solid #000000;
+    background-color: #ffffff;
+}
+
+.services-page .panel{
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.services-page .page-header{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.services-page .small-header{
+    color:#999;
+    margin:0px;
+}
+
+.thumb{
+    padding:4px;
+    border:1px solid #f2f2f2;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+@keyframes navbar-bg-in{
+    from { background-color: rgba(255 , 255 , 255 , 0.4);}
+    to {background: #ffffff;}
+}
+
+@-moz-keyframes navbar-bg-in{
+    from {background-color: rgba(255 , 255 , 255 , 0.4);}
+    to {background: #ffffff;}
+}
+
+@-webkit-keyframes navbar-bg-in{
+    from {background-color: rgba(255 , 255 , 255 , 0.4);}
+    to {background: #ffffff;}
+}
+
+@-o-keyframes navbar-bg-in{
+    from {background-color: rgba(255 , 255 , 255 , 0.4);}
+    to {background: #ffffff;}
+}
+
+@keyframes navbar-bg-out{
+    from {background: #ffffff ;}
+    to {background-color: rgba(255 , 255 , 255 , 0.4);}
+}
+
+@-moz-keyframes navbar-bg-out{
+    from {background: #ffffff ;}
+    to {background-color: rgba(255 , 255 , 255 , 0.4);}
+}
+
+@-webkit-keyframes navbar-bg-out{
+    from {background: #ffffff ;}
+    to {background-color: rgba(255 , 255 , 255 , 0.4);}
+}
+
+@-o-keyframes navbar-bg-out{
+    from {background: #ffffff ;}
+    to {background-color: rgba(255 , 255 , 255 , 0.4);}
+}
+
