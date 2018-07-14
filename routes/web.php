@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::group(['middleware' => ['Wechat'] , 'prefix' => 'wechat' , 'namespace' => 'Wechat'] , function ($router){
+Route::group(['prefix' => 'wechat' , 'namespace' => 'Wechat'] , function ($router){
     $router->get('/' , 'IndexController@index');
 });

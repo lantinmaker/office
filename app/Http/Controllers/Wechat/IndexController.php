@@ -26,9 +26,9 @@ class IndexController extends Controller
         $tmpStr = sha1( $tmpStr );
 
         if( $signature  === $tmpStr){
-            return true;
+            return 1;
         }else{
-            return false;
+            return 0;
         }
     }
 }
