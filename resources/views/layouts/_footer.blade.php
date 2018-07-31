@@ -21,7 +21,7 @@
                                     <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
                                 </span>
                     </a>
-                    <a href="">
+                    <a href="http://weibo.com/lantinmaker" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
@@ -46,11 +46,7 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <i class="fa fa-fw fa-phone-square"></i>
-                        <b>400-700-8888</b>
-                    </div>
-                    <div class="col-xs-6">
-                        <i class="fa fa-fw fa-phone-square"></i>
-                        <b>400-700-8888</b>
+                        <b>027-59760305</b>
                     </div>
                 </div>
                 </p>
