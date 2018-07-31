@@ -15,9 +15,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">首页</a></li>
-                <li><a href="">LantinCMS</a></li>
-                <li><a href="#">UUBS</a></li>
-                <li><a href="#">C4D印客</a></li>
+                <li><a href="">企业文化</a></li>
+                <li><a href="#">产品</a></li>
+                <li><a href="#">服务</a></li>
                 <li><a href="#">合作</a></li>
                 <li><a href="#">联系</a></li>
             </ul>
