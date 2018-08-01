@@ -2,10 +2,29 @@
 
 
 @section('content')
-    <div class="flex-center position-ref full-height">
-        <div class="content">
-            <div class="title m-b-md">
-                lantinmaker
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="http://pic.90sjimg.com/back_pic/qk/back_origin_pic/00/02/07/2dedc747d6ad3a06885b129630ef6850.jpg" style="height: 390px;" alt="...">
+                <div class="carousel-caption">
+                    <h1>兰亭微客</h1>
+                    <p>自主研发的微信服务系统</p>
+                    <p style="margin-top: 20px;">
+                        <a href="" class="btn btn-info">了解详情</a>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <a href="">
+                    <img src="{{ asset('images/banner_1.jpg') }}" style="height: 390px;" alt="...">
+                </a>
             </div>
         </div>
     </div>
@@ -28,7 +47,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 

@@ -4,21 +4,13 @@ html, body {
     font-family: 'microsoft Yahei','Raleway', sans-serif;
     font-weight: 100;
     font-size: 16px;
-    height: 100vh;
     margin: 0;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 body{
-    padding-top:80px;
+    padding-top:58px;
 }
 
-body.home-page{
-    background-image: url('../images/bg_0.jpg');
-}
 
 body.services-page{
     background: #ffffff;
@@ -96,6 +88,7 @@ h1{
     border: 0px;
     transform: background-color .5s;
     z-index: 9999;
+    margin-bottom: 0px;
 }
 
 .navbar-bg-in{
@@ -150,6 +143,20 @@ h1{
 .navbar-default .navbar-nav>li>a.phone-link{
     padding:10px;
 }
+
+.carousel-indicators .active{
+    width:32px;
+    height: 8px;
+}
+.carousel-indicators li{
+    width:8px;
+    height: 8px;
+}
+
+.carousel-caption{
+    top:100px;
+}
+
 .phone-link span{
     display: inline-block;
     padding: 8px 20px;
