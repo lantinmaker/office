@@ -41,13 +41,6 @@
                 $(".navbar-default").removeClass('navbar-bg-in').addClass('navbar-bg-out'); // 开始淡出
             }
 
-            if($(window).scrollTop() <= $('.title').offset().top){
-                _title_top = $('.title').offset().top - $(window).scrollTop();
-                console.log($('.title').css('font-size'));
-                _font_size = 84 - ( ( $('.title').offset().top - _title_top ) / $('.title').offset().top ) * ( 84 - 56 );
-                $('.title').css("font-size" , _font_size + 'px');
-            }
-
 
         });
     });

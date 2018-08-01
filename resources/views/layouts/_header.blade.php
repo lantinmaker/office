@@ -15,11 +15,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">首页</a></li>
-                <li><a href="">企业文化</a></li>
+                <li><a href="#">新闻中心</a></li>
                 <li><a href="#">产品</a></li>
                 <li><a href="#">服务</a></li>
-                <li><a href="#">合作</a></li>
-                <li><a href="#">联系</a></li>
+                <li><a href="#">商务合作</a></li>
+                <li><a href="#">联系我们</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
