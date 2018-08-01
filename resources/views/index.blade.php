@@ -14,11 +14,11 @@
             <div class="item active">
                 <img src="{{ asset('images/banner_0.jpg') }}" style="height: 390px;" alt="...">
             </div>
-            <div class="item">
-                <a href="">
-                    <img src="{{ asset('images/banner_1.jpg') }}" style="height: 390px;" alt="...">
-                </a>
-            </div>
+            {{--<div class="item">--}}
+                {{--<a href="">--}}
+                    {{--<img src="{{ asset('images/banner_1.jpg') }}" style="height: 390px;" alt="...">--}}
+                {{--</a>--}}
+            {{--</div>--}}
         </div>
     </div>
 
